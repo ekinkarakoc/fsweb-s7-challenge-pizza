@@ -1,11 +1,15 @@
 import React from "react";
+import Header from "./Layout/Header";
+import PageContent from "./Layout/PageContent";
 
 const App = () => {
   return (
-    <>
-      <h1>Teknolojik Yemekler</h1>
-      <p>Burdaki kodu silip kendi headerınızı ekleyebilirsiniz</p>
-    </>
+    <div>
+      <Header />
+      <div>
+        <PageContent />
+      </div>
+    </div>
   );
 };
 export default App;

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap");
+
+.container-h {
+  background-color: #ce2829;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100vw;
+}
+
+.container-h > h1 {
+  font-family: "Londrina Solid", cursive;
+  font-size: 45px;
+  color: #fff;
+}
+
+.headercontent {
+  position: relative;
+  z-index: 1;
+}

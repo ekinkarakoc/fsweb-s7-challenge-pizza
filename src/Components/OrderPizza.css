@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&family=Londrina+Solid&display=swap");
+
+.main-cont {
+  width: 100%;
+  background-color: #ce2829;
+}
+
+.boyham {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+}
+
+.boyutradio {
+  margin-top: 30px;
+}
+
+.pizzaboyut {
+  width: 60%;
+}
+
+.boyutsec {
+  display: flex;
+  width: 25%;
+  height: 50px;
+}
+
+.boyutsec > h2 {
+  margin-left: 10px;
+  color: #ce2829;
+}
+.hamurboyut {
+  width: 40%;
+}
+
+.hamurboyut2 {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.hamurboyut2 > h4 {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.hamurboyut2 > h2 {
+  margin-left: 10px;
+  color: #ce2829;
+}
+
+.malzemeler {
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.malzemeler > p {
+  padding-top: 10px;
+  color: black;
+}
+
+.malzemei {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.malzemei > .form-check {
+  width: 33%;
+  margin: 20px 0px;
+  font-size: 1.2rem;
+}
+
+.not {
+  margin-top: 50px;
+}
+
+.form-control {
+  margin: 30px 0px 50px;
+  width: 800px;
+  height: 50px;
+}
+
+.buttons {
+  margin-top: 40px;
+  display: flex;
+}
+
+.buttons > p {
+  color: #000;
+  width: 40px;
+  padding-right: 0;
+  height: 45px;
+  border: 0.5px solid black;
+  border-radius: 4px;
+}
+
+.btn-warning {
+  height: 45px;
+  width: 40px;
+}
+
+.order {
+  display: flex;
+}
+
+.finish {
+  margin-top: 50px;
+  margin-left: 270px;
+  height: 230px;
+  border: 2px solid black;
+  border-radius: 7px;
+  width: 400px;
+}
+
+.finish > h4 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.seçimler {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
+.toplam {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+  color: red;
+}
+
+.finish > button {
+  width: 100%;
+  height: 3.8rem;
+  margin-top: 15px;
+}
+.t-links {
+  display: flex;
+  margin: auto;
+  justify-content: start;
+  align-items: center;
+  background-color: #ce2829;
+  width: 900px;
+  height: 100px;
+}
+
+.t-links > a,
+p {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+
+.underheader {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 40px auto;
+}
+
+.underheader > p {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-weight: bolder;
+}
+
+.fiyatkismi {
+  margin-top: 100px;
+  display: flex;
+}
+.fiyatdiv {
+  width: 30vw;
+}
+
+.puan {
+  width: 15vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aciklama > p {
+  color: black;
+}
